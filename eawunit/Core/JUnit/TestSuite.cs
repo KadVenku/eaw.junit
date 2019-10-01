@@ -3,19 +3,25 @@ using System.Xml.Serialization;
 
 namespace EaWUnit.Core.JUnit
 {
-    [XmlRoot(ElementName="testsuite")]
-    public class TestSuite {
-        [XmlElement(ElementName="testcase")]
+    [XmlRoot(ElementName = "testsuite")]
+    public class TestSuite
+    {
+        [XmlElement(ElementName = "testcase")]
         public List<TestCase> TestCase { get; set; }
-        [XmlAttribute(AttributeName="name")]
+
+        [XmlAttribute(AttributeName = "name")]
         public string Name { get; set; }
-        [XmlAttribute(AttributeName="tests")]
+
+        [XmlAttribute(AttributeName = "tests")]
         public string Tests { get; set; }
-        [XmlAttribute(AttributeName="failures")]
+
+        [XmlAttribute(AttributeName = "failures")]
         public string Failures { get; set; }
-        [XmlAttribute(AttributeName="hostname")]
+
+        [XmlAttribute(AttributeName = "hostname")]
         public string Hostname { get; set; }
-        [XmlAttribute(AttributeName="id")]
+
+        [XmlAttribute(AttributeName = "id")]
         public string Id { get; set; }
     }
 }

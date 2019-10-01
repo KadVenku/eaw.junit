@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using EaWUnit.Core.Application;
 using EaWUnit.Core.JUnit;
 
 namespace EaWUnit.CheckMod.Builder

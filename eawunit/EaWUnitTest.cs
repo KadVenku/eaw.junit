@@ -18,8 +18,9 @@ namespace EaWUnit
                 TestResultBuilder builder = new TestResultBuilder();
                 TestSuites testSuites = builder.Build(new TestResultBuilderArgument
                 {
-                    TestCases = new CheckModReportFileParser().ParseFile(ApplicationData.ModCheckReportFilePath, ApplicationData.TestMode),
-                    TestSuiteName = "Mod::Check()",
+                    TestCases = new CheckModReportFileParser().ParseFile(ApplicationData.ModCheckReportFilePath,
+                        ApplicationData.TestMode),
+                    TestSuiteName = "Mod::Check()"
                 });
                 TestSuiteWriter writer = new TestSuiteWriter();
                 string testName = "TEST-" + DateTime.Now.ToString("yyyy-MM-dd-HHmmss") + ".xml";
@@ -28,7 +29,10 @@ namespace EaWUnit
             catch (Exception e)
             {
                 Console.Error.WriteLine($"An error occured {e}", e.Message);
+                ApplicationData.ExitCode = 1;
+                AppUtility.PrintUsage();
             }
+
             Environment.Exit(ApplicationData.ExitCode);
         }
     }

@@ -1,6 +1,7 @@
 using System.Runtime.CompilerServices;
 
 [assembly: InternalsVisibleTo("eawunit.test")]
+
 namespace EaWUnit.Core.Application
 {
     internal static class ApplicationData
