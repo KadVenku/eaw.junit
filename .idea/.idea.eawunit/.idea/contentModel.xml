@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Kad Venku\.nuget\packages\nunit3testadapter\3.10.0\build\netcoreapp1.0\Mono.Cecil.dll" t="Include" />
+    <e p="C:\Users\Kad Venku\.nuget\packages\nunit3testadapter\3.10.0\build\netcoreapp1.0\nunit.engine.netstandard.dll" t="Include" />
+    <e p="C:\Users\Kad Venku\.nuget\packages\nunit3testadapter\3.10.0\build\netcoreapp1.0\NUnit3.TestAdapter.dll" t="Include" />
+    <e p="C:\Users\Kad Venku\.nuget\packages\nunit3testadapter\3.10.0\build\netcoreapp1.0\NUnit3.TestAdapter.pdb" t="Include" />
+    <e p="C:\Users\Kad Venku\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Kad Venku\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_eawunit.-1985824310.00" t="ExcludeRecursive" />
+    <e p="I:\Workspace\eawunit" t="IncludeFlat">
+      <e p="eawunit" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CheckMod" t="Include">
+          <e p="Builder" t="Include">
+            <e p="TestResultBuilder.cs" t="Include" />
+            <e p="TestResultBuilderArgument.cs" t="Include" />
+          </e>
+          <e p="Parser" t="Include">
+            <e p="CheckModReportFileParser.cs" t="Include" />
+          </e>
+          <e p="Writer" t="Include">
+            <e p="TestSuiteWriter.cs" t="Include" />
+            <e p="Utf8StringWriter.cs" t="Include" />
+          </e>
+        </e>
+        <e p="core" t="Include">
+          <e p="Application" t="Include">
+            <e p="ApplicationData.cs" t="Include" />
+            <e p="AppUtility.cs" t="Include" />
+            <e p="TestMode.cs" t="Include" />
+          </e>
+          <e p="junit" t="Include">
+            <e p="Failure.cs" t="Include" />
+            <e p="Skipped.cs" t="Include" />
+            <e p="TestCase.cs" t="Include" />
+            <e p="TestSuite.cs" t="Include" />
+            <e p="TestSuites.cs" t="Include" />
+          </e>
+        </e>
+        <e p="eawunit.csproj" t="IncludeRecursive" />
+        <e p="EaWUnitTest.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Release" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="eawunit.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="eawunit.sln" t="IncludeFlat" />
+      <e p="eawunit.test" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CheckMod" t="Include">
+          <e p="Builder" t="Include">
+            <e p="TestResultBuilder_Test.cs" t="Include" />
+          </e>
+          <e p="Parser" t="Include">
+            <e p="CheckModReportFileParser_Test.cs" t="Include" />
+          </e>
+        </e>
+        <e p="eawunit.test.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Release" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="eawunit.test.AssemblyInfo.cs" t="Include" />
+              <e p="eawunit.test.Program.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
