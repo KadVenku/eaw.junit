@@ -5,6 +5,7 @@ using EaWUnit.Core.Application;
 using EaWUnit.Core.JUnit;
 
 [assembly: InternalsVisibleTo("eawunit.test")]
+
 namespace EaWUnit.CheckMod.Builder
 {
     internal class TestResultBuilder
